@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: 0px solid red;
 }
 
 :root {
@@ -22,15 +23,29 @@ body {
   background-color: rgb(64, 64, 64);
 }
 
+a {
+  color: var(--light-pink);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--dark-pink);
+}
+
 header {
-  padding: 10px;
+  background-color: var(--off-white-pink);
 }
 
 .header-left-item-one,
 .header-left-item-two,
 .header-right-item-one,
 .header-right-item-two {
-  padding: 10px;
+  margin: 10px;
+}
+
+.header-left-item-one,
+.header-left-item-two {
+  color: var(--dark-pink);
 }
 
 header,
@@ -44,4 +59,18 @@ header,
 
 .logo {
   max-width: 100px;
+}
+
+.header-right-item-one,
+.header-right-item-two {
+  width: 2rem;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("assets/images/MacaBettaHeroImage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
