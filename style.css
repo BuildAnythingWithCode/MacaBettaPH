@@ -6,8 +6,8 @@
 }
 
 :root {
-  --light-pink: #F6A5D8;
-  --dark-pink: #D873A4;
+  --light-pink: #ffd7f0;
+  --dark-pink: #bc5587;
   --light-purple: #C7B6F2;
   --dark-purple: #5B4A8F;
   --light-blue: #A8C7F7;
@@ -19,13 +19,10 @@
   --off-white-yellow: #FFFFF8;
 }
 
-body {
-  background-color: rgb(64, 64, 64);
-}
-
 a {
   color: var(--light-pink);
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
+  text-decoration: none;
 }
 
 a:hover {
@@ -34,6 +31,9 @@ a:hover {
 
 header {
   background-color: var(--off-white-pink);
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 .header-left-item-one,
@@ -73,4 +73,49 @@ header,
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero h1,
+.hero h3,
+.hero .button,
+.dotted {
+  margin: 20px 20px 20px 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Josefin Sans";
+  color: var(--dark-purple);
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Quicksand";
+  color: var(--dark-purple);
+  font-weight: 500;
+}
+
+.dotted {
+  border-top: 3px dotted var(--dark-purple);
+  width: 200px;
+
+}
+
+.button {
+  font-size: 1.5rem;
+  font-family: "Bebas Neue";
+  padding: 20px 50px;
+  border-radius: 99px;
+  background-color: var(--dark-pink);
+  transition: background-color 0.5s ease;
+
+}
+
+.button:hover {
+  background-color: var(--light-pink);
 }
