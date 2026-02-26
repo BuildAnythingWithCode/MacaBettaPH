@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --light-pink: #F6A5D8;
+  --dark-pink: #D873A4;
+  --light-purple: #C7B6F2;
+  --dark-purple: #5B4A8F;
+  --light-blue: #A8C7F7;
+  --dark-blue: #315d9f;
+  --light-turquoise: #BEE9F7;
+  --dark-turquoise: #3d7f95;
+  --off-white-blue: #F8F9FF;
+  --off-white-pink: #FFF8FE;
+  --off-white-yellow: #FFFFF8;
+}
+
 body {
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(64, 64, 64);
 }
