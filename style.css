@@ -21,3 +21,27 @@
 body {
   background-color: rgb(64, 64, 64);
 }
+
+header {
+  padding: 10px;
+}
+
+.header-left-item-one,
+.header-left-item-two,
+.header-right-item-one,
+.header-right-item-two {
+  padding: 10px;
+}
+
+header,
+.header-left-items-cont,
+.header-right-items-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  max-width: 100px;
+}
