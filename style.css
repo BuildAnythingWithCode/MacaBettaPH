@@ -17,11 +17,13 @@
   --off-white-blue: #F8F9FF;
   --off-white-pink: #FFF8FE;
   --off-white-yellow: #FFFFF8;
+  --hot-pink: #ee2385;
+  --hot-purple: #8837ec;
 }
 
 a {
   color: var(--light-pink);
-  transition: color 0.5s ease;
+  transition: color 0.5s;
   text-decoration: none;
 }
 
@@ -62,8 +64,15 @@ header,
 }
 
 .header-right-item-one,
-.header-right-item-two {
+.header-right-item-two,
+.header-right-item-three {
   width: 2rem;
+}
+
+.gradient-under-header {
+  width: 100vw;
+  height: 2px;
+  background: linear-gradient(to right, var(--hot-purple), var(--hot-pink))
 }
 
 .hero {
@@ -112,10 +121,16 @@ h3 {
   padding: 20px 50px;
   border-radius: 99px;
   background-color: var(--dark-pink);
-  transition: background-color 0.5s ease;
-
+  transition: background-color 0.5s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .button:hover {
   background-color: var(--light-pink);
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
 }
