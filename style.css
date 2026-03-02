@@ -113,11 +113,23 @@ h1 {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 2rem;
+  font-family: "Bebas Neue";
+  font-weight: 100;
+  color: rgb(75, 75, 75);
+}
+
 h3 {
   font-size: 1.5rem;
   font-family: "Quicksand";
   color: var(--dark-purple);
   font-weight: 500;
+}
+
+p {
+  font-family: "Fredoka";
+  color: rgb(75, 75, 75);
 }
 
 .dotted {
@@ -139,6 +151,19 @@ h3 {
 .button:hover {
   background-color: var(--light-pink);
 }
+
+.simple-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+
+
+
+
 
 @media (max-width: 768px) {
   header {
