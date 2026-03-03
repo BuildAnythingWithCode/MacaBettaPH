@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 :root {
@@ -28,6 +28,8 @@ a {
   color: var(--light-pink);
   transition: color 0.5s;
   text-decoration: none;
+  font-family: "Quicksand";
+  font-weight: 900;
 }
 
 a:hover {
@@ -84,7 +86,6 @@ header,
 }
 
 .gradient-under-header {
-  width: 100vw;
   height: 2px;
   background: linear-gradient(to right, var(--hot-purple), var(--hot-pink));
 }
@@ -274,6 +275,11 @@ p {
 
 .review-star-icon {
   margin: 10px;
+}
+
+footer {
+  background-color: var(--light-purple);
+  padding: 70px 0;
 }
 
 
