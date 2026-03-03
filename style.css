@@ -11,6 +11,7 @@
   --dark-pink: #bc5587;
   --very-light-purple: #eae1ff;
   --light-purple: #C7B6F2;
+  --medium-purple: #b29bec;
   --dark-purple: #5B4A8F;
   --very-light-blue: #dae9ff;
   --light-blue: #A8C7F7;
@@ -278,7 +279,7 @@ p {
 }
 
 footer {
-  background-color: var(--light-purple);
+  background-color: var(--medium-purple);
   padding: 70px 0;
 }
 
