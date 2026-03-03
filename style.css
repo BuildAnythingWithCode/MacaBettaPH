@@ -86,7 +86,7 @@ header,
 .gradient-under-header {
   width: 100vw;
   height: 2px;
-  background: linear-gradient(to right, var(--hot-purple), var(--hot-pink))
+  background: linear-gradient(to right, var(--hot-purple), var(--hot-pink));
 }
 
 .hero {
@@ -128,6 +128,12 @@ h3 {
   font-family: "Quicksand";
   color: var(--dark-purple);
   font-weight: 500;
+}
+
+h4 {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: var(--dark-blue);
 }
 
 p {
@@ -208,6 +214,39 @@ p {
 .staggered-div img {
   width: 40vw;
   border-radius: 50px;
+}
+
+.small-margin {
+  margin: 20px;
+}
+
+.faq-section h2 {
+  margin: 20px;
+}
+
+.faq-cont {
+  background: linear-gradient(45deg, var(--light-blue), var(--light-pink));
+  width: 80vw;
+  text-align: start;
+}
+
+.faq-icon {
+  width: 2rem;
+}
+
+.faq-text-cont {
+  justify-content: space-between;
+  border: 1px solid white;
+}
+
+.faq-text-cont h4,
+.faq-text-cont img {
+  margin: 0 5px;
+}
+
+
+.faq-button {
+  margin: 30px;
 }
 
 
